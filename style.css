@@ -1,4 +1,23 @@
-body{
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     margin: 0;
     padding: 0;
+}
+
+#back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid rgba(18, 18, 199, 0.76);
+    color: rgba(18, 18, 199, 0.76);
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+#back-to-top:hover {
+    background-color: rgba(18, 18, 199, 0.76);
+    color: white;
 }
